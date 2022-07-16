@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
-  Staff.findOne({ _id: "6290a7ed3f83e23b522bf9f0" })
+  Staff.findOne({ _id: "62d1712e6c696ef965658358" })
     .then((staff) => {
       req.staff = staff;
       next();
@@ -49,7 +49,7 @@ mongoose
             startDate: new Date(2021, 10, 25),
             department: "Nhân sự",
             annualLeave: 12,
-            image: "http://localhost:3005/",
+            image: "http://localhost:3000",
             workStatus: null,
             workTimes: [],
             totalTimesWork: null,
@@ -62,7 +62,7 @@ mongoose
         }
       })
       .then((a) => {
-        app.listen(3005);
+        app.listen(3000);
       });
   })
   .catch((err) => console.log(err));
