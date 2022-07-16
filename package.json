@@ -1,0 +1,24 @@
+{
+  "name": "asm1",
+  "version": "1.0.0",
+  "description": "node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktkthuong/NJS101x_Assignment1_huonghttFX13307-funix.edu.vn.git"
+  },
+  "author": "Truc Huong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktkthuong/NJS101x_Assignment1_huonghttFX13307-funix.edu.vn/issues"
+  },
+  "homepage": "https://github.com/ktkthuong/NJS101x_Assignment1_huonghttFX13307-funix.edu.vn#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
