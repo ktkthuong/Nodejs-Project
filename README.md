@@ -1,6 +1,6 @@
 
 ```
-Employee attendance web project use nodejs version 20.4.0
+Employee attendance web project use nodejs version 20.4.0 use template ejs
 ├─ controllers
 │  ├─ add-staff.js
 │  ├─ error.js
