@@ -1,6 +1,6 @@
 
 ```
-Employee attendance web project use nodejs, version 20.4.0 use template ejs, use mongodb.
+Employee attendance web project use nodejs version 20.4.0, use template ejs, use mongodb connect VScode.
 ├─ controllers
 │  ├─ add-staff.js
 │  ├─ error.js
